@@ -1,4 +1,4 @@
-                     .model small
+.model small
 .stack 100h
 
 .data
@@ -260,5 +260,6 @@ o_wins:
     int 21h
     ret
 display_result endp
+
 
 end main
